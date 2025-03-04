@@ -2,7 +2,7 @@
 /*
 -----------------------------------------------------------------------------------
 SQL Skript pro analýzu vývoje mezd a cen potravin v ČR + evropská data (HDP, GINI)
-Autor: Drahomíra Zajíčková
+Autor: Drahomíra Zajíčková, nemám Discord, kontakt je email: drahomira.fischlova@seznam.cz
 Účel: Vytvoření tabulek a analýza dostupnosti základních potravin ve vztahu k příjmům
 Struktura skriptu:
     1️ Analýza vývoje mezd v čase
