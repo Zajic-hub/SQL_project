@@ -355,7 +355,7 @@ LEFT JOIN food_affordability
 -- sloučení dat pro tuto otázku v excelu bylo poměrně komplikované, vrátila jsem se ke slučování v SQL
  
 
-   CREATE TABLE t_merge_GDP_price_salary AS
+CREATE TABLE t_merge_GDP_price_salary AS
 SELECT 
     tdzpspf.year,  
     tdzpssf.country,  
