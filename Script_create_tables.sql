@@ -103,7 +103,7 @@ SELECT *
 FROM salaries 
 LIMIT 5;
 
-SELECT* 
+SELECT * 
 FROM food_prices 
 LIMIT 5;
 
@@ -132,17 +132,17 @@ JOIN food_prices_fixed
     ON salaries.year = food_prices_fixed.year;
 
 
-SELECT* 
+SELECT * 
 FROM food_affordability 
 LIMIT 10;
 
 -- teď tabulku food_affordability překopíruji do tabulky se správným názvem t_drahomira_zajickova_project_SQL_primary_final
 
 CREATE TABLE t_drahomira_zajickova_project_SQL_primary_final AS
-SELECT* 
+SELECT * 
 FROM food_affordability;
 
-SELECT* 
+SELECT * 
 FROM t_drahomira_zajickova_project_sql_primary_final tdzpspf
 LIMIT 10;
 
@@ -373,8 +373,8 @@ LEFT JOIN t_drahomira_zajickova_project_sql_secondary_final tdzpssf
 ORDER BY tdzpspf.year, tdzpssf.country;
 
 
-select*
-from t_merge_gdp_price_salary tmgps ;
+SELECT *
+FROM t_merge_gdp_price_salary tmgps ;
 
 -- tento skript vygeneroval přes milion řádků - nelze pokračovat
 
